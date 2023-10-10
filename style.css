@@ -57,13 +57,24 @@ body{
     border-radius: 0;
     text-align: left;
 }
-.sub-menu1 ul li:last-child{
+.sub-menu1, ul li:last-child{
     border-bottom: none;
 }
-.menu-bar ul li:hover .sub-menu1{
+.menu-bar ul li:hover .sub-menu1 {
     display: block;
     position: absolute;
     background-color: rgb(0, 100, 0);
     margin-top: 15px;
     margin-left: -15px;
+}
+.sub-menu2{
+    display: none;
+}
+
+.hover-me:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(0, 100, 0);
 }
